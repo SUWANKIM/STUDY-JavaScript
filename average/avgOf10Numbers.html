@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Average of ten things</title>
+    <Script>
+        var sum = 0;
+        var avg = 0;
+        var totalInputNum = Number(prompt('숫자 개수 입력 : '));
+
+        for(var i = 1; i <= totalInputNum; i++){
+            var value = prompt('Put Number ' + i + ' : ');
+
+            sum += Number(value);
+        }
+
+        avg = sum / totalInputNum;
+        alert('합 : '+ avg);
+    </Script>
+</head>
+<body>
+
+</body>
+</html>
